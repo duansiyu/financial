@@ -1,0 +1,75 @@
+import {
+  StyleSheet
+} from 'react-native';
+import {StyleConfig} from './index';
+const oPx = StyleConfig.oPx;
+
+export const styles = StyleSheet.create({
+	container:{
+		width:StyleConfig.screen_width,
+		height:StyleConfig.screen_height,
+		backgroundColor:'#FFFFFF',
+		flex:1
+	},
+	content:{
+		paddingLeft:40/oPx,
+		paddingRight:40/oPx,
+		marginTop:30/oPx,
+		width:StyleConfig.screen_width
+	},
+	line:{
+		flexDirection:'row',
+		justifyContent:'flex-start',
+		width:StyleConfig.screen_width-80/StyleConfig.oPx,
+		alignItems:'center',
+		marginTop:15/oPx,
+		borderBottomWidth:StyleConfig.borderWidth,
+		borderColor:'#ccc',
+		height:100/oPx
+	},
+	textInput:{
+		width:515/oPx,
+		color:'#999',
+		fontSize:15
+	},
+	icon:{
+		width:46/oPx,
+		height:46/oPx
+	},
+	imgCord:{
+		height:52/oPx,
+		justifyContent:'center',
+		alignItems:'center',
+		flexDirection:'row',
+	},
+	imgFont:{
+		fontSize:30/oPx,
+		color:'#ff6600',
+		marginLeft:5/oPx,
+	},
+	getCord:{
+		width:200/oPx,
+		height:50/oPx,
+		backgroundColor:'#c1c1c1',
+		borderRadius:25/oPx,
+		justifyContent:'center',
+		alignItems:'center'
+	},
+	getFont:{
+		fontSize:30/oPx,
+		color:'#fff'
+	},
+	login:{
+		justifyContent:'flex-end',
+		flexDirection:'row',
+		marginTop:10/oPx
+	},
+	loginText:{
+		fontSize:28/oPx,
+		color:'#666'
+	},
+	loginBtn:{
+		color:'#0f98df',
+		fontSize:28/oPx,
+	}
+})

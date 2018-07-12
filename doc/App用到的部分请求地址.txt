@@ -1,0 +1,18 @@
+
+ /**
+     * 网页地址
+     */
+    public static final String OPT_ADDRESS = ADDRESS + "/appVisitor/appAction";//接口地址
+    public static final String PAY_OPEN_ADDRESS = ADDRESS + "/huifu/userregisterM";//开通汇付
+    public static final String INVEST_ADDRESS = ADDRESS + "/appVisitor/tenderloansign";//投资
+    public static final String ABOUT_ADDRESS = ADDRESS + "/mobileMoreIntroduc/about?device=app";//关于我们
+    public static final String CONTACT_ADDRESS = ADDRESS + "/mobileMoreIntroduc/contact?device=app";//联系我们
+    public static final String PROJECT_DETAIL_ADDRESS = ADDRESS + "/mobileLoan/toLoanDetail";//项目详情
+    public static final String WIND_CONTROL_ADDRESS = ADDRESS + "/mobileLoan/toLoanDetail_FK";//风控措施
+    public static final String CARD_ADD_ADDRESS = ADDRESS + "/userBank/toAddUserCard";//添加银行卡
+    public static final String CARD_DELETE_ADDRESS = ADDRESS + "/userBank/delUserBank";//删除银行卡
+    public static final String WITHDRAW_ADDRESS = ADDRESS + "/mobileWithdrawal/saveWithdraw";//提现
+    public static final String RECHARGE_ADDRESS = ADDRESS + "/mobileRecharge/huifuPayment";//充值
+    public static final String PROTOCOL_ADDRESS = ADDRESS + "/views/Agreement.html";//网站服务协议
+    public static final String ACTIVATION_ADDRESS = ADDRESS + "/appVisitor/redMoneyActivate";//激活红包
+    public static final String TRANSFER_ADDRESS = ADDRESS + "/transfer/buyTransfer";//购买债券转让
